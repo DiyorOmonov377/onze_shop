@@ -12,19 +12,21 @@ class _IntroPage1State extends State<IntroPage3> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      /// intro Page - 3
       backgroundColor: Colors.white,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Lottie.network(
-                'https://assets1.lottiefiles.com/packages/lf20_pOgO5H.json'),
-          ),
-          const Text('Yetkazib berish xizmati ham mavjud',
+          Container(child: Lottie.asset('assets/intro3.json')),
+          const Text('online market',
               style: TextStyle(
                   fontSize: 20,
-                  color: Color.fromARGB(255, 58, 228, 180),
+                  color: Colors.orange,
+                  fontWeight: FontWeight.w500)),
+          const Text('oNze',
+              style: TextStyle(
+                  fontSize: 15,
+                  color: Colors.orange,
                   fontWeight: FontWeight.w500)),
         ],
       ),

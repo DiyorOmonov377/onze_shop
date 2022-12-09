@@ -30,6 +30,9 @@ flutter:
   assets:
     - assets/images/
     - assets/flag/
+    - assets/shopping.json
+    - assets/intro2.json
+    - assets/intro3.json
 
   # assets:
   #   - images/a_dot_burr.jpeg

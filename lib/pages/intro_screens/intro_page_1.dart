@@ -18,10 +18,8 @@ class _IntroPage1State extends State<IntroPage1> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Lottie.network(
-                'https://assets10.lottiefiles.com/packages/lf20_5ngs2ksb.json'),
-          ),
+              // padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Lottie.asset('assets/shopping.json')),
           const Text('Welcome to the online market',
               style: TextStyle(
                   fontSize: 20,

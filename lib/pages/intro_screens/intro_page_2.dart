@@ -17,20 +17,16 @@ class _IntroPage1State extends State<IntroPage2> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Lottie.network(
-                'https://assets9.lottiefiles.com/packages/lf20_w49jejqc.json',
-                height: 250),
-          ),
-          const SizedBox(
-            height: 15,
-          ),
-          const Text(
-              'Bizning Maxsulotlarimiz sifatli va xamyonbob narxlarda sotib olishingiz mumkun',
+          Container(child: Lottie.asset('assets/intro2.json')),
+          const Text('online market',
+              style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.orange,
+                  fontWeight: FontWeight.w500)),
+          const Text('oNze',
               style: TextStyle(
                   fontSize: 15,
-                  color: Color.fromARGB(255, 58, 228, 180),
+                  color: Colors.orange,
                   fontWeight: FontWeight.w500)),
         ],
       ),
